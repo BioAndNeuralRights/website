@@ -4,10 +4,6 @@ This repository is the source code for the website at https://BioAndNeuralRights
 
 ## Potential To Do List
 
-- link to github from website
-	- make it clear that the website is open-source and welcomes contributions from the community
-- perhaps add a contact (e.g. bioandneuralrights@gmail.com)
-	- is there a way to create a contact shared among contributors? alternative to email perhaps?
 - create a logo
 - create a favicon.ico for the website
 - re-organize repository and build step so all the public website files are in a folder
@@ -18,6 +14,7 @@ This repository is the source code for the website at https://BioAndNeuralRights
 - perhaps link to the current three articles from the main section of the home page
 - consider a good governance model for this open-source website, e.g. one that allows efficiently incorporating feedback from contributors
 - consider setting up open collective (e.g. for hosting costs, if a backend is added)
+- add a way to track progress on related legislation; add information on the legislation efforts
 
 ## Setup Instructions
 
