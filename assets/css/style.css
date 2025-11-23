@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #f5f7fa;
+}
+
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 3rem 1.5rem;
+    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    border-bottom-color: white;
+    opacity: 1;
+}
+
+main {
+    max-width: 900px;
+    margin: 3.5rem auto;
+    padding: 0 1.5rem;
+    min-height: calc(100vh - 300px);
+}
+
+article {
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    line-height: 1.9;
+}
+
+article h2 {
+    color: #667eea;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 4px solid #667eea;
+    padding-bottom: 0.75rem;
+    font-weight: 700;
+}
+
+article h3 {
+    color: #764ba2;
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+}
+
+article p {
+    margin-bottom: 1.75rem;
+    text-align: left;
+    color: #34495e;
+    font-size: 1.05rem;
+}
+
+article ul {
+    margin-left: 2.5rem;
+    margin-bottom: 1.75rem;
+}
+
+article li {
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    color: #34495e;
+}
+
+article a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+article a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #667eea;
+    transition: width 0.3s ease;
+}
+
+article a:hover::after {
+    width: 100%;
+}
+
+article a:hover {
+    color: #764ba2;
+}
+
+section {
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+section h2 {
+    color: #667eea;
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 4px solid #667eea;
+    padding-bottom: 0.75rem;
+    font-weight: 700;
+}
+
+section p {
+    margin-bottom: 1.75rem;
+    line-height: 1.9;
+    color: #34495e;
+    font-size: 1.05rem;
+}
+
+.intro-section {
+    text-align: left;
+}
+
+.flyer-section {
+    text-align: center;
+}
+
+.flyer-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.05rem;
+    transition: all 0.3s ease;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    cursor: pointer;
+    border: none;
+}
+
+.flyer-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+}
+
+.flyer-button:active {
+    transform: translateY(-1px);
+}
+
+footer {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+    text-align: center;
+    padding: 2.5rem;
+    margin-top: 4rem;
+    font-size: 0.95rem;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+ @media (max-width: 768px) {
+    header {
+        padding: 2rem 1rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    nav ul {
+        gap: 1.25rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article {
+        padding: 2rem;
+    }
+
+    article h2 {
+        font-size: 1.6rem;
+    }
+
+    article h3 {
+        font-size: 1.3rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    main {
+        margin: 2rem auto;
+    }
+
+    .flyer-button {
+        padding: 0.85rem 2rem;
+        font-size: 1rem;
+    }
+}
+
+ @media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        gap: 0.75rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+
+    article {
+        padding: 1.5rem;
+    }
+
+    article p {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+}
