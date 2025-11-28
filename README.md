@@ -1,6 +1,8 @@
 # Bio and Neural Rights Website
 
-This repository is the source code for the website at https://BioAndNeuralRights.com. Contributions are welcome for both the content and the design. Feel free to send a pull request, file an issue (for features, bugs), or use the discussion board.
+This repository is the source code for the website at https://BioAndNeuralRights.com. Contributions are welcome for both the content and the design. 
+
+Feel free to choose an item from the below "To Do List" and send in a pull request. For new featuers or bug reports, please file an issue or use the discussion board.
 
 ## Potential To Do List
 
@@ -15,6 +17,8 @@ This repository is the source code for the website at https://BioAndNeuralRights
 - consider a good governance model for this open-source website, e.g. one that allows efficiently incorporating feedback from contributors
 - consider setting up open collective (e.g. for hosting costs, if a backend is added)
 - add a way to track progress on related legislation; add information on the legislation efforts
+- consider adding a way for people to discuss concerns, legislation, etc. (either on the website or using social media perhaps)
+- perhaps move this list into GitHub issues
 
 ## Setup Instructions
 
