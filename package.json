@@ -4,20 +4,12 @@
   "description": "A website for the Bio and Neural Rights series.",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js",
-    "serve": "live-server .",
-    "watch": "onchange '_markdown/**/*.md' '_templates/**/*.html' -- npm run build",
-    "start": "npm-run-all --parallel watch serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "http-server .",
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^14.1.1",
-    "live-server": "^1.2.0",
-    "marked": "^17.0.1",
-    "npm-run-all": "^4.1.5",
-    "onchange": "^7.1.0"
+    "http-server": "^14.1.1"
   }
 }
